@@ -51,14 +51,14 @@ height: 80px;
   padding: 8px 5px;
   border-radius: 3px;
 }
-/*
+
 .nav--menu__link:hover,
 .nav--menu__link:active{
   background-color: #ffffff7c;
   color: white;
   transition: 0.5s;
 }
-*/
+
 .nav--toggle{
   color: black;
   background: none;
