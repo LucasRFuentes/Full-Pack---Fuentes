@@ -13,6 +13,7 @@ body{
 .nav{
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .header--nav{
 background-color: blueviolet;
@@ -34,8 +35,8 @@ height: 80px;
 .nav--menu{
   display: flex;
   list-style: none;
-  margin-right: 40px;
   text-decoration: none;
+  margin-right: 40px;
 }
 
 .nav--menu__item{
@@ -54,8 +55,8 @@ height: 80px;
 
 .nav--menu__link:hover,
 .nav--menu__link:active{
-  background-color: #ffffff7c;
-  color: white;
+  background-color: rgba(137, 43, 226, 0.411);
+  color: rgb(255, 255, 255);
   transition: 0.5s;
 }
 
@@ -580,7 +581,7 @@ padding: 5%;
 .fondo--body{
   background-image: url(../IMG/Amethyst.jpg);
   background-size: 100% auto;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .formulario{
@@ -693,7 +694,7 @@ h2{
 
 .titulo__formulario{
   font-family: "outfit", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 30px;
 }
 h2{
@@ -701,6 +702,10 @@ h2{
   font-size: 60px;
   color: black;
   position: center;
+}
+h4{
+  font-size: 16px;
+  font-weight: bold;
 }
 input{width:100%;
   padding:10px;
@@ -722,7 +727,8 @@ input{width:100%;
 }
 .titulo--formulario__iniciosesion{
   font-family: "outfit", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 600;
   margin-top: 10px;
 }
 }
