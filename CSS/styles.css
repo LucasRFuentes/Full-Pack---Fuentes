@@ -715,6 +715,7 @@ body {
     font-size: 18px;
   }
   .boton {
+    color: #000;
     background: whitesmoke;
     margin-top: 15px;
   }
