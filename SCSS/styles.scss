@@ -312,6 +312,7 @@ $fuente:"outfit" sans-serif;
     }
     .titulo--uno {
       @include tituloprincipal;
+      font-size: 25px;
       margin-top: 80px;
       padding: 20px;
     }
@@ -485,11 +486,12 @@ $fuente:"outfit" sans-serif;
     }
     .boton {
       background: whitesmoke;
-    }
-    .boton:hover {
+      margin-top: 15px;
+    &:hover {
       background: blueviolet;
       transition: 0, 5s;
     }
+  }
     .titulo--formulario__iniciosesion {
       font-family: $fuente;
       font-size: 20px;
@@ -499,6 +501,11 @@ $fuente:"outfit" sans-serif;
   }
   /*Inicia comercios responsive*/
   @media screen and (max-width: 775px) {
+    .fondo--body {
+      background-image: url(../IMG/Amethyst.jpg);
+      background-size: 100% auto;
+      background-repeat: repeat;
+    }
     .titulo--formulario__iniciosesion {
       font-family: $fuente;
       font-size: 20px;
@@ -540,11 +547,12 @@ $fuente:"outfit" sans-serif;
     }
     .boton {
       background: whitesmoke;
-    }
-    .boton:hover {
+      margin-top: 15px;
+    &:hover {
       background: blueviolet;
       transition: 0, 5s;
     }
+  }
     input {
       width: 100%;
       padding: 10px;

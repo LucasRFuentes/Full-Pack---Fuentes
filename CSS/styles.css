@@ -399,6 +399,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    font-size: 25px;
     margin-top: 80px;
     padding: 20px;
   }
@@ -640,6 +641,7 @@ body {
   }
   .boton {
     background: whitesmoke;
+    margin-top: 15px;
   }
   .boton:hover {
     background: blueviolet;
@@ -656,6 +658,11 @@ body {
 
 /*Inicia comercios responsive*/
 @media screen and (max-width: 775px) {
+  .fondo--body {
+    background-image: url(../IMG/Amethyst.jpg);
+    background-size: 100% auto;
+    background-repeat: repeat;
+  }
   .titulo--formulario__iniciosesion {
     font-family: "outfit" sans-serif;
     font-size: 20px;
@@ -709,6 +716,7 @@ body {
   }
   .boton {
     background: whitesmoke;
+    margin-top: 15px;
   }
   .boton:hover {
     background: blueviolet;
